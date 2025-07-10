@@ -34,7 +34,7 @@ public class BoardController {
 	
 	// Spring boot는 RequestMapping을 선호하지 않는다!
 	// 정확한 전송방식을 지정하는 것을 권장
-	@GetMapping("/")
+	@GetMapping("/main")
 	public String board(Model model) {
 		// Model -> request 경량화 버전
 		// 내가 직접 생성할 필요 없이, 매개변수로 받아오면 알아서 container 전달
